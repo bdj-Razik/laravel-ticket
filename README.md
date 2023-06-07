@@ -250,6 +250,7 @@ The `ticket` model has also a list of scopes to begin filter with.
 |  `archived` |`void` | get the archived tickets  | `Ticket::archived()->get()` |
 |  `unArchived` |`void` | get the unArchived tickets  | `Ticket::unArchived()->get()` |
 |  `resolved` |`void` | get the resolved tickets  | `Ticket::resolved()->get()` |
+|  `unResolved` |`void` | get the unResolved tickets  | `Ticket::unResolved()->get()` |
 |  `locked` |`void` | get the locked tickets  | `Ticket::locked()->get()` |
 |  `unlocked` |`void` | get the unlocked tickets  | `Ticket::unlocked()->get()` |
 |  `withLowPriority` |`void` | get the low priority tickets  | `Ticket::withLowPriority()->get()` |
